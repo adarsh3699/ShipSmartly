@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact - Ship Dashboard</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/headerBar.css">
+    <link rel="stylesheet" href="./css/menuBar.css">
+    <link rel="stylesheet" href="./css/content.css">
+    <link rel="stylesheet" href="./css/contact.css"> <!-- Add custom styles for Contact -->
+</head>
+
+<body>
+
+    <div id="main">
+        <!-- MenuBar will be injected here -->
+        <div id="menuBarContainer"></div>
+
+        <!-- Main Content -->
+        <div id="mainBody">
+            <!-- HeaderBar Component -->
+            <div id="headerBar">
+                <div id="aboutUser">
+                    <img src="./img/ship.svg" id="shipIcon" />
+                    <div>
+                        <div id="title">Demo Vessel</div>
+                        <div id="crewmates">16 Crewmates · <span>9 Active</span></div>
+                    </div>
+                </div>
+                <div id="time-logout">
+                    <div id="time">GMT +09:00</div>
+                    <img src="./img/logoutBtn.svg" />
+                </div>
+            </div>
+
+            <!-- Contact Content -->
+            <div id="content">
+                <div id="contact">
+                    <div id="contactTitle">
+                        <h2>Contact Us</h2>
+                        <p>If you have any questions or want to get in touch, feel free to contact me below!</p>
+                    </div>
+
+                    <div id="contactFormContainer">
+                        <form id="contactForm">
+                            <div class="formSection">
+                                <label for="name">Name</label>
+                                <input type="text" id="name" name="name" required />
+                            </div>
+
+                            <div class="formSection">
+                                <label for="email">Email</label>
+                                <input type="email" id="email" name="email" required />
+                            </div>
+
+                            <div class="formSection">
+                                <label for="subject">Subject</label>
+                                <input type="text" id="subject" name="subject" required />
+                            </div>
+
+                            <div class="formSection">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="6" required></textarea>
+                            </div>
+
+                            <div class="formSection">
+                                <button type="submit" id="submitContactForm">Send Message</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Ship Dashboard</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/headerBar.css">
+    <link rel="stylesheet" href="./css/menuBar.css">
+    <link rel="stylesheet" href="./css/content.css">
+    <link rel="stylesheet" href="./css/aboutMe.css"> <!-- Add custom styles for About Me -->
+</head>
+
+<body>
+
+    <div id="main">
+        <!-- MenuBar will be injected here -->
+        <div id="menuBarContainer"></div>
+
+        <!-- Main Content -->
+        <div id="mainBody">
+            <!-- HeaderBar Component -->
+            <div id="headerBar">
+                <div id="aboutUser">
+                    <img src="./img/ship.svg" id="shipIcon" />
+                    <div>
+                        <div id="title">Demo Vessel</div>
+                        <div id="crewmates">16 Crewmates · <span>9 Active</span></div>
+                    </div>
+                </div>
+                <div id="time-logout">
+                    <div id="time">GMT +09:00</div>
+                    <img src="./img/logoutBtn.svg" />
+                </div>
+            </div>
+
+            <!-- About Me Content -->
+            <div id="content">
+                <div id="aboutMe">
+                    <div id="aboutMeTitle">
+                        <h2>About Us</h2>
+                        <p>A little information about me and my journey aboard the Demo Vessel.</p>
+                    </div>
+
+                    <div id="aboutMeContainer">
+                        <div class="aboutMeSection">
+                            <img src="./img/niranjan.jpg" class="aboutMeImage" />
+                            <div class="aboutMeInfo">
+                                <h3>Hi, I’m Niranjan Pawar!</h3>
+                                <p>I’m currently serving as the Third Officer aboard the Demo Vessel. I’ve been working
+                                    in the Merchant Navy for over 7 years, and I am passionate about navigation, safety,
+                                    and ensuring smooth operations on board.</p>
+                                <p>My experience spans a range of duties, from bridge watchkeeping to cargo operations
+                                    and ensuring compliance with maritime safety regulations. I always strive to bring
+                                    my best to the team and help ensure the crew is functioning at peak performance.</p>
+                            </div>
+                        </div>
+
+                        <div class="aboutMeSection">
+                            <h3>Career Milestones</h3>
+                            <ul>
+                                <li>2017 - Joined the Merchant Navy as a Cadet</li>
+                                <li>2019 - Promoted to Third Officer</li>
+                                <li>2021 - Completed Leadership Training</li>
+                                <li>2023 - Current Role: Third Officer on Demo Vessel</li>
+                            </ul>
+                        </div>
+
+                        <div class="aboutMeSection">
+                            <h3>Skills & Expertise</h3>
+                            <ul>
+                                <li>Bridge Navigation</li>
+                                <li>Cargo Operations</li>
+                                <li>Safety Procedures and Emergency Protocols</li>
+                                <li>Leadership and Team Management</li>
+                                <li>Fluent in English and Hindi</li>
+                            </ul>
+                        </div>
+
+                        <div class="aboutMeSection">
+                            <h3>Personal Interests</h3>
+                            <p>Outside of my work on the ship, I enjoy hiking, photography, and learning about new
+                                technologies in the maritime industry. I also love spending time with my family when on
+                                leave and always try to stay active and engaged with the latest developments in global
+                                maritime practices.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

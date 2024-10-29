@@ -1,0 +1,133 @@
+#basicInfo {
+    max-width: 344px !important;
+    min-width: 344px !important;
+    height: 360px;
+    padding: 0.5px 0;
+    box-shadow: 0px 0px 1px rgba(40, 41, 61, 0.48);
+    border-radius: 12px;
+}
+
+#basicInfoElement {
+    margin: 21px 31px;
+}
+
+#greeting {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#post {
+    margin-top: 29px;
+    margin-bottom: 7px;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+}
+
+#name {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 36px;
+    margin-bottom: 4px;
+}
+
+#crewId {
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 22px;
+    letter-spacing: 0.2px;
+}
+
+#basicInfo hr {
+    margin: 30px -13px;
+    background: #111111;
+    mix-blend-mode: normal;
+    opacity: 0.15;
+}
+
+#activity {
+    font-weight: 550;
+    font-size: 18px;
+    margin-bottom: 7px;
+    color: #121212;
+}
+
+#activityLog {
+    font-size: 16px;
+    color: #5D6F88;
+    line-height: 25px;
+}
+
+#activityLog span {
+    font-weight: 600;
+}
+
+#jobInfo {
+    max-width: 344px;
+    min-width: 344px;
+    height: 276px;
+    box-shadow: 0px 0px 1px rgba(40, 41, 61, 0.48), 0px 2px 4px rgba(96, 97, 112, 0.12);
+    border-radius: 12px;
+    padding: 0.1px 0;
+    margin-top: 13px;
+}
+
+#jobInfoElement {
+    margin-left: 30px;
+}
+
+#shipName {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 14px;
+    margin-top: 19px;
+}
+
+#status {
+    margin-top: 25px;
+    letter-spacing: 0.44px;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+#status span {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+#lift {
+    margin-top: 7px;
+    font-weight: 1000;
+    font-size: 18px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    color: #5A5B6A;
+}
+
+#jobInfoElement hr {
+    margin: 25px 15px 25px -13px;
+    background: #111111;
+    mix-blend-mode: normal;
+    opacity: 0.15;
+}
+
+#nextPort {
+    display: flex;
+    justify-content: space-between;
+    margin-right: 18px;
+}
+
+.port {
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0.44px;
+}
+
+.portTime { 
+    font-weight: 500;
+    font-size: 15px;
+    letter-spacing: 0.25px;
+}

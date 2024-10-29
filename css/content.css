@@ -1,0 +1,5 @@
+#content {
+    margin-top: 11px;
+    display: flex;
+    justify-content: space-between;
+}

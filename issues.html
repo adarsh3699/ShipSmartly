@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Issues - Ship Dashboard</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/headerBar.css">
+    <link rel="stylesheet" href="./css/menuBar.css">
+    <link rel="stylesheet" href="./css/content.css">
+    <link rel="stylesheet" href="./css/issues.css"> <!-- New Issues-specific CSS -->
+</head>
+
+<body>
+
+    <div id="main">
+        <!-- MenuBar Component -->
+        <div id="menuBarContainer"></div>
+
+
+        <!-- Main Content -->
+        <div id="mainBody">
+            <!-- HeaderBar Component -->
+            <div id="headerBar">
+                <div id="aboutUser">
+                    <img src="./img/ship.svg" id="shipIcon" />
+                    <div>
+                        <div id="title">Demo Vessel</div>
+                        <div id="crewmates">16 Crewmates · <span>9 Active</span></div>
+                    </div>
+                </div>
+
+                <div id="time-logout">
+                    <div id="time">GMT +09:00</div>
+                    <img src="./img/logoutBtn.svg" />
+                </div>
+            </div>
+
+            <!-- Issues Content -->
+            <div id="content">
+                <div id="issuesTitle">
+                    <h1>Ship Issues</h1>
+                    <p>Here are the current issues reported on the ship. Please review and address them accordingly.</p>
+                </div>
+
+                <div id="issueList">
+                    <!-- Example Issue Item -->
+                    <div class="issueItem">
+                        <div class="issueTitle">
+                            <h2>Engine Room Overheating</h2>
+                        </div>
+                        <div class="issueMeta">
+                            <span>Reported on: November 27, 2024</span>
+                            <span>Status: <span style="color: #E95454;">Urgent</span></span>
+                        </div>
+                        <div class="issueDescription">
+                            The engine room is overheating due to a potential malfunction in the cooling system.
+                            Immediate inspection is required.
+                        </div>
+                        <div class="issueActions">
+                            <a href="#">Assign</a> | <a href="#">Mark as Resolved</a>
+                        </div>
+                    </div>
+
+                    <div class="issueItem">
+                        <div class="issueTitle">
+                            <h2>Deck Lighting Fault</h2>
+                        </div>
+                        <div class="issueMeta">
+                            <span>Reported on: March 2, 2024</span>
+                            <span>Status: <span style="color: #E1C84D;">In Progress</span></span>
+                        </div>
+                        <div class="issueDescription">
+                            The lighting on the deck has been intermittently failing. Technicians are currently
+                            investigating the issue.
+                        </div>
+                        <div class="issueActions">
+                            <a href="#">Assign</a> | <a href="#">Mark as Resolved</a>
+                        </div>
+                    </div>
+
+                    <!-- More issue items can be added here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

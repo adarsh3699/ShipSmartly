@@ -1,0 +1,52 @@
+#issuesTitle {
+  margin: 20px 0;
+  text-align: center;
+}
+
+#issueList {
+  padding: 20px;
+}
+
+.issueItem {
+  border: 1px solid #e1e1e1;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+
+.issueItem .issueTitle h2 {
+  font-size: 1.6rem;
+  color: #333;
+}
+
+.issueItem .issueMeta {
+  font-size: 0.9rem;
+  margin-top: 10px;
+}
+
+.issueItem .issueMeta span {
+  display: block;
+}
+
+.issueItem .issueMeta span span {
+  font-weight: bold;
+}
+
+.issueItem .issueDescription {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #666;
+}
+
+.issueItem .issueActions {
+  margin-top: 15px;
+}
+
+.issueItem .issueActions a {
+  color: #007bff;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.issueItem .issueActions a:hover {
+  text-decoration: underline;
+}

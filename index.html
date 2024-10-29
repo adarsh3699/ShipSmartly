@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ship Dashboard</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/headerBar.css">
+    <link rel="stylesheet" href="./css/menuBar.css">
+    <link rel="stylesheet" href="./css/content.css">
+    <link rel="stylesheet" href="./css/stream.css">
+    <link rel="stylesheet" href="./css/toDos.css">
+    <link rel="stylesheet" href="./css/userInfo.css">
+</head>
+
+<body>
+
+    <div id="main">
+        <!-- MenuBar Component -->
+        <div id="menuBarContainer"></div>
+
+        <!-- Main Content -->
+        <div id="mainBody">
+            <!-- HeaderBar Component -->
+            <div id="headerBar">
+                <div id="aboutUser">
+                    <img src="./img/ship.svg" id="shipIcon" />
+                    <div>
+                        <div id="title">Demo Vessel</div>
+                        <div id="crewmates">16 Crewmates · <span>9 Active</span></div>
+                    </div>
+                </div>
+
+                <div id="time-logout">
+                    <div id="time">GMT +09:00</div>
+                    <img src="./img/logoutBtn.svg" />
+                </div>
+            </div>
+
+            <!-- Content Component -->
+            <div id="content">
+                <!-- UserInfo Component -->
+                <div id="userInfo">
+                    <div id="basicInfo">
+                        <div id="basicInfoElement">
+                            <div id="greeting">
+                                <img src="./img/hello.svg" />
+                                <img src="./img/merchantNavy.svg" />
+                            </div>
+                            <div id="post">Third Officer</div>
+                            <div id="name">
+                                <div>Niranjan</div>
+                                <div>Pawar</div>
+                            </div>
+                            <div id="crewId">Crew ID 86556</div>
+                            <hr />
+                            <div id="activity">My Last Activity</div>
+                            <div id="activityLog">Submitted the Deck Log for <br /><span>1200-1600 Watch </span> at
+                                08:16 UTC</div>
+                        </div>
+                    </div>
+
+                    <div id="jobInfo">
+                        <div id="jobInfoElement">
+                            <div id="shipName">
+                                <img src="./img/cargoShip.svg" />
+                                <div>SGSIN - NOOSL</div>
+                            </div>
+                            <div id="status">
+                                <span>Statement of Facts</span> <br />
+                                Current Status
+                            </div>
+                            <div id="lift">Cargo First Lift</div>
+                            <hr />
+                            <div id="nextPort">
+                                <div>
+                                    <div class="port">Next Port Call</div>
+                                    <div id="portTime">INVTZ1</div>
+                                </div>
+                                <div>
+                                    <div class="port">ETA</div>
+                                    <div id="portTime">Nov 27, 1450 UTC</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Stream Component -->
+                <div id="stream">
+                    <div id="streamElement">
+                        <div id="streamSync">
+                            <div>Ahoy Stream</div>
+                            <img src="./img/sync.svg" />
+                        </div>
+                        <div id="lastUpdate">Last updated - 4 minutes ago</div>
+                        <div id="noticeContent">
+                            <div id="importNotice">
+                                <span>Important Notice</span>
+                                <img src="./img/paperclip.svg" />
+                            </div>
+                            <div id="notice">Captain's Bridge Order dated Nov 27, 2020</div>
+                            <div id="seen">
+                                <div id="seenCount"><img src="./img/eye.svg" /> 1</div>
+                                <div id="readBtn">read</div>
+                            </div>
+                        </div>
+
+                        <div class="eachNotice">
+                            <span>Second Office Oliver </span>
+                            submitted the Deck Log for 1400-1500 watch hour and completed the Handover Checklist
+                            <div class="eachNoticeTime">UTC 1105 | LT +06:30</div>
+                        </div>
+
+                        <div class="eachNotice">
+                            <span>Third Engineer Edward </span>
+                            submitted the Engine Log for 1200-1600 watch hour and completed the Handover Checklist
+                            <div class="eachNoticeTime">UTC 1055 | LT +06:30</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- ToDos Component -->
+                <div id="toDosContent">
+                    <div id="toDosElement">
+                        <div id="myDay">
+                            <div>
+                                <div id="myDayTitle">My Day</div>
+                                <div id="myDayDate">Tuesday, March 2</div>
+                            </div>
+                            <img src="./img/cloudy.svg" />
+                        </div>
+
+                        <form id="todoForm">
+                            <input id="addToDos" placeholder="Add Your ToDos" type="text" />
+                        </form>
+
+                        <div class="eachToDoBorder eachToDo">
+                            <div class="toDoEllpsis">
+                                <img src="./img/delete.svg" height="20px" class="deleteTodo" />
+                            </div>
+                            <div class="toDoInfo">
+                                <input type="checkbox" class="todoCheckbox" checked />
+                                <div>
+                                    <div style="text-decoration: line-through;">
+                                        Deck Log | 1200 - 1600 Watch
+                                    </div>
+                                    <div class="toDoDesc">Assigned by Wayship | Due in 2 hours</div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="eachToDo" style="border: 1px solid #E95454;">
+                            <div class="toDoEllpsis">
+                                <img src="./img/delete.svg" height="20px" class="deleteTodo" />
+                            </div>
+                            <div class="toDoInfo">
+                                <input type="checkbox" class="todoCheckbox" />
+                                <div>
+                                    <div style="color: #E95454;">
+                                        COVID19 Health Guidelines
+                                    </div>
+                                    <div class="toDoDesc">Assigned by Technical | Due in 2 days</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

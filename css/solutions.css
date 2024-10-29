@@ -1,0 +1,52 @@
+#solutionsTitle {
+  margin: 20px 0;
+  text-align: center;
+  font-size: 1.8rem;
+  color: #333;
+}
+
+#solutionList {
+  padding: 20px;
+}
+
+.solutionItem {
+  border: 1px solid #ddd;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+}
+
+.solutionItem .solutionTitle h2 {
+  font-size: 1.6rem;
+  color: #007bff;
+}
+
+.solutionItem .solutionMeta {
+  margin-top: 10px;
+  font-size: 0.9rem;
+}
+
+.solutionItem .solutionMeta span {
+  display: block;
+}
+
+.solutionItem .solutionDescription {
+  margin-top: 10px;
+  font-size: 1rem;
+  color: #666;
+}
+
+.solutionItem .solutionActions {
+  margin-top: 15px;
+}
+
+.solutionItem .solutionActions a {
+  color: #28a745;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.solutionItem .solutionActions a:hover {
+  text-decoration: underline;
+}

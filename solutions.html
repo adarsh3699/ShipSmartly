@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solutions - Ship Dashboard</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/headerBar.css">
+    <link rel="stylesheet" href="./css/menuBar.css">
+    <link rel="stylesheet" href="./css/content.css">
+    <link rel="stylesheet" href="./css/solutions.css"> <!-- New Solutions-specific CSS -->
+</head>
+
+<body>
+
+    <div id="main">
+        <!-- MenuBar Component -->
+        <div id="menuBarContainer"></div>
+
+        <!-- Main Content -->
+        <div id="mainBody">
+            <!-- HeaderBar Component -->
+            <div id="headerBar">
+                <div id="aboutUser">
+                    <img src="./img/ship.svg" id="shipIcon" />
+                    <div>
+                        <div id="title">Demo Vessel</div>
+                        <div id="crewmates">16 Crewmates · <span>9 Active</span></div>
+                    </div>
+                </div>
+
+                <div id="time-logout">
+                    <div id="time">GMT +09:00</div>
+                    <img src="./img/logoutBtn.svg" />
+                </div>
+            </div>
+
+            <!-- Solutions Content -->
+            <div id="content">
+                <div id="solutionsTitle">
+                    <h1>Ship Solutions</h1>
+                    <p>Explore the possible solutions for common issues and challenges on board.</p>
+                </div>
+
+                <div id="solutionList">
+                    <!-- Example Solution Item -->
+                    <div class="solutionItem">
+                        <div class="solutionTitle">
+                            <h2>Engine Overheating Fix</h2>
+                        </div>
+                        <div class="solutionMeta">
+                            <span>Suggested By: Technical Team</span>
+                        </div>
+                        <div class="solutionDescription">
+                            Check the cooling system and ensure all fans are functioning correctly. If overheating
+                            persists, inspect the engine for potential blockages.
+                        </div>
+                        <div class="solutionActions">
+                            <a href="#">Mark as Done</a>
+                        </div>
+                    </div>
+
+                    <div class="solutionItem">
+                        <div class="solutionTitle">
+                            <h2>Deck Lighting Troubleshooting</h2>
+                        </div>
+                        <div class="solutionMeta">
+                            <span>Suggested By: Electrical Team</span>
+                        </div>
+                        <div class="solutionDescription">
+                            Inspect the deck light switches and wiring. Replace any faulty bulbs or damaged wires as
+                            necessary.
+                        </div>
+                        <div class="solutionActions">
+                            <a href="#">Mark as Done</a>
+                        </div>
+                    </div>
+
+                    <!-- Add more solutions here -->
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+</body>
+
+</html>

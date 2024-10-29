@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonials - Ship Dashboard</title>
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/headerBar.css">
+    <link rel="stylesheet" href="./css/menuBar.css">
+    <link rel="stylesheet" href="./css/content.css">
+    <link rel="stylesheet" href="./css/testimonials.css"> <!-- Add custom styles for testimonials -->
+</head>
+
+<body>
+
+    <div id="main">
+        <!-- MenuBar will be injected here -->
+        <div id="menuBarContainer"></div>
+
+        <!-- Main Content -->
+        <div id="mainBody">
+            <!-- HeaderBar Component -->
+            <div id="headerBar">
+                <div id="aboutUser">
+                    <img src="./img/ship.svg" id="shipIcon" />
+                    <div>
+                        <div id="title">Demo Vessel</div>
+                        <div id="crewmates">16 Crewmates · <span>9 Active</span></div>
+                    </div>
+                </div>
+                <div id="time-logout">
+                    <div id="time">GMT +09:00</div>
+                    <img src="./img/logoutBtn.svg" />
+                </div>
+            </div>
+
+            <!-- Testimonials Content -->
+            <div id="content">
+                <div id="testimonials">
+                    <div id="testimonialsTitle">
+                        <h2>What Our Crew Says</h2>
+                        <p>Real feedback from the crew of Demo Vessel.</p>
+                    </div>
+
+                    <div id="testimonialsContainer">
+                        <div class="testimonialCard">
+                            <img src="./img/user1.jpg" class="testimonialImage" />
+                            <div class="testimonialContent">
+                                <p class="testimonialText">"Working on the Demo Vessel has been an enriching experience.
+                                    The camaraderie and professionalism among the crew is unmatched. I feel privileged
+                                    to be part of this amazing team!"</p>
+                                <div class="testimonialAuthor">- Niranjan Pawar, Third Officer</div>
+                            </div>
+                        </div>
+
+                        <div class="testimonialCard">
+                            <img src="./img/user2.jpg" class="testimonialImage" />
+                            <div class="testimonialContent">
+                                <p class="testimonialText">"The support from the team during our operations is
+                                    commendable. We all work together, and it’s this team spirit that helps us succeed
+                                    in every mission."</p>
+                                <div class="testimonialAuthor">- Edward, Third Engineer</div>
+                            </div>
+                        </div>
+
+                        <div class="testimonialCard">
+                            <img src="./img/user3.jpg" class="testimonialImage" />
+                            <div class="testimonialContent">
+                                <p class="testimonialText">"The leadership aboard the ship ensures that everyone is well
+                                    taken care of, and the environment here fosters growth and learning."</p>
+                                <div class="testimonialAuthor">- Oliver, Second Officer</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./app.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,128 @@
+#stream {
+    background: #D8E6FF;
+    border-radius: 12px;
+    min-width: 429px;
+    max-width: 429px;
+}
+
+#streamElement {
+    margin: 13px 25px;
+}
+
+#streamSync {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#streamSync div {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 36px;
+    color: #133774;
+}
+
+#lastUpdate {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.25px;
+    color: #5A5B6A;
+    margin-bottom: 18px;
+}
+
+#noticeContent {
+    background: #FFFAEC;
+    border-radius: 12px;
+    padding: 17px 16px 29px 31px;
+    margin-bottom: 12px;
+}
+
+#importNotice {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    letter-spacing: 0.25px;
+    color: #E95454;
+    margin-bottom: 14px;
+}
+
+#notice {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    color: #19191D;
+    margin-bottom: 14px;
+}
+
+#seen {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#seenCount {
+    font-weight: 500;
+    font-size: 14px;
+    letter-spacing: 0.1px;
+    color: #19191D;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#seenCount img {
+    margin-right: 5px;
+}
+
+#readBtn {
+    background: #E95454;
+    border-radius: 99px;
+
+    font-style: normal;
+    font-weight: 600;
+    font-size: 10px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    line-height: 16px;
+    padding: 3px 16px;
+}
+
+.eachNotice {
+    margin-bottom: 12px;
+
+    background: #FFFFFF;
+    border-radius: 12px;
+    padding: 27px 21px 20px 30px;
+
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    letter-spacing: 0.2px;
+    color: #213838;
+    opacity: 0.8;
+}
+
+.eachNotice span {
+    font-weight: 700;
+}
+
+.eachNoticeTime {
+    margin-top: 24px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    
+    text-align: right;
+    letter-spacing: 0.25px;
+    color: #5A5B6A;
+}

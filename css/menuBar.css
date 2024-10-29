@@ -1,0 +1,37 @@
+#menuBar {
+  text-align: center;
+  background: #ffffff;
+  box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.48);
+  border-radius: 8px;
+  padding: 8px 6px 0px 6px;
+}
+
+.menus {
+  margin: auto;
+  height: 78px;
+  width: 98px;
+  margin: 2px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  letter-spacing: 0.44px;
+  cursor: pointer;
+}
+
+.menus:hover {
+  background: #d8e6ff;
+  border-radius: 8px;
+}
+
+.menus a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.homeMenu {
+  background: #d8e6ff;
+  border-radius: 8px;
+}
